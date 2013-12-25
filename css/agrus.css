@@ -10,8 +10,8 @@ div,
 header,
 footer {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .container {
@@ -49,23 +49,23 @@ h1 {
 }
 
 h2 {
-  
+
 }
 
 h3 {
-  
+
 }
 
 h4 {
-  
+
 }
 
 h5 {
-  
+
 }
 
 h6 {
-  
+
 }
 
 .main-title { /* This is the main title used at the beginning of each region */
@@ -120,11 +120,11 @@ footer {
 }
 
 header {
-  background: url('../img/backgrounds/top-bg.jpg'); /* You can find more images inside the folder img/backgrounds */
+  background: url('../img/backgrounds/top-bg.jpg');
   -webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
-          background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 footer {
@@ -139,8 +139,8 @@ footer {
 /* Generics */
 .border-circle {
   -webkit-border-radius: 50%;
-     -moz-border-radius: 50%;
-          border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
 }
 
 .center-content {
@@ -148,9 +148,9 @@ footer {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-     -moz-transform: translate(-50%, -50%);
-       -o-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 /* header */
@@ -199,13 +199,13 @@ footer {
   left: 50%;
   opacity: 1;
   -webkit-transform: translate(-50%, -50%);
-     -moz-transform: translate(-50%, -50%);
-       -o-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   -webkit-transition: opacity 0.3s, top 0.3s, font-size 0.3s;
-     -moz-transition: opacity 0.3s, top 0.3s, font-size 0.3s;
-       -o-transition: opacity 0.3s, top 0.3s, font-size 0.3s;
-          transition: opacity 0.3s, top 0.3s, font-size 0.3s;
+  -moz-transition: opacity 0.3s, top 0.3s, font-size 0.3s;
+  -o-transition: opacity 0.3s, top 0.3s, font-size 0.3s;
+  transition: opacity 0.3s, top 0.3s, font-size 0.3s;
 }
 
 .panel1 .panel-item:hover .panel-icon {
@@ -219,13 +219,13 @@ footer {
   text-align: center;
   opacity: 0;
   -webkit-transform: scale(0);
-     -moz-transform: scale(0);
-       -o-transform: scale(0);
-          transform: scale(0);
+  -moz-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-     -moz-transition: opacity 0.3s, -moz-transform 0.3s;
-       -o-transition: opacity 0.3s, -o-transform 0.3s;
-          transition: opacity 0.3s, transform 0.3s;
+  -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+  -o-transition: opacity 0.3s, -o-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
 }
 
 .panel1 .panel-item:hover .panel-info {
@@ -233,9 +233,9 @@ footer {
   text-align: center;
   opacity: 1;
   -webkit-transform: scale(1);
-     -moz-transform: scale(1);
-       -o-transform: scale(1);
-          transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
 }
 
 .panel1 .panel-item h3 {
@@ -268,9 +268,9 @@ footer {
 .portfolio1 .portfolio-image {
   opacity: 1;
   -webkit-transition: opacity 0.3s;
-     -moz-transition: opacity 0.3s;
-       -o-transition: opacity 0.3s;
-          transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
 }
 
 .portfolio1 .portfolio-item:hover .portfolio-image,
@@ -293,13 +293,13 @@ footer {
   border-color: inherit;
   opacity: 0;
   -webkit-transition: opacity 0.3s;
-     -moz-transition: opacity 0.3s;
-       -o-transition: opacity 0.3s;
-          transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
   -webkit-transform: translate(-50%, -50%);
-     -moz-transform: translate(-50%, -50%);
-       -o-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .portfolio1 .portfolio-item:hover .portfolio-link,
@@ -373,17 +373,17 @@ footer {
   height: inherit;
   background-color: transparent;
   -webkit-transition: background-color 0.3s;
-     -moz-transition: background-color 0.3s;
-       -o-transition: background-color 0.3s;
-          transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
 }
 
 .team1 img {
   display: block;
   -webkit-transition: opacity 0.3s;
-     -moz-transition: opacity 0.3s;
-       -o-transition: opacity 0.3s;
-          transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
 }
 
 .team1 .team-info {
@@ -394,13 +394,13 @@ footer {
   left: 0;
   opacity: 0;
   -webkit-transform: translateY(-50%);
-     -moz-transform: translateY(-50%);
-       -o-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
   -webkit-transition: opacity 0.3s;
-     -moz-transition: opacity 0.3s;
-       -o-transition: opacity 0.3s;
-          transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
 }
 
 .team1 .team-info h2 {
@@ -421,9 +421,9 @@ footer {
 .team1 .team-social a:hover {
   color: #a8dba8;
   -webkit-transition: color 0.3s;
-     -moz-transition: color 0.3s;
-       -o-transition: color 0.3s;
-          transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 .team1 .team-content:hover {
@@ -474,9 +474,9 @@ footer {
 /* Social networks */
 .contact-social .icon-stack [class*="bg-"] {
   -webkit-transition: color 0.3s;
-     -moz-transition: color 0.3s;
-       -o-transition: color 0.3s;
-          transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 .contact-social .icon-stack:hover [class*="bg-"] {
@@ -542,7 +542,7 @@ footer {
 
 /* Responsive */
 @media (max-width: 767px) {
-  
+
   /*** Regions ***/
 
   header,
@@ -598,4 +598,19 @@ footer {
     padding-bottom: 0px;
   }
   
+}
+
+
+/* CUTOM CSS */
+
+.panel-description {
+  position: relative;
+  margin: 0 auto;
+  padding: 10px;
+  width: 220px;
+  height: auto;
+}
+
+.panel-description > h4, p {
+  text-align: center;
 }
