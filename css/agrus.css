@@ -120,7 +120,7 @@ footer {
 }
 
 header {
-  background: url('../img/backgrounds/tree.jpg'); /* You can find more images inside the folder img/backgrounds */
+  background: url('../img/backgrounds/top-bg.jpg'); /* You can find more images inside the folder img/backgrounds */
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
